@@ -1,6 +1,6 @@
 # Advent-of-Code
 
-![GitHub Logo](/images/image.png)
+![GitHub Logo](/images/adv.jpeg)
 
 Some Advent of Code solutions to the christmas challenge 
 
