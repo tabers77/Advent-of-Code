@@ -18,9 +18,9 @@ def transform_data(s):
     return (col[1]+1, row[1])
 
 
-f = open('input.txt', 'r')
-data = f.read().split('\n')
-f.close()
+file = open('input.txt', 'r')
+data = file.read().split('\n')
+file.close()
 
 ans = 0
 
