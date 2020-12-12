@@ -34,7 +34,7 @@ def this_in_this(looking_for, looking_in):
 
 counter = 0
 
-# if sinny gold in bags
+# if shiny gold in bags
 for i in bags.keys():
     if this_in_this('shiny gold', i):
         counter += 1
