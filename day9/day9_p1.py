@@ -7,7 +7,7 @@ def get_preamble_num():
     for i in range(split , len(data)): # start from the 25
         preamble = data[i-split:i] # here we print chunks of 25
         #print(preamble)
-        num = data[i] # all numbers staring from 25
+        num = data[i] # all numbers starting from 25
         found = False
 
         for j in range(split-1): # starting from 24
