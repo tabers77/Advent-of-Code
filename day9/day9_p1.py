@@ -10,7 +10,7 @@ def get_preamble_num():
         num = data[i] # all numbers staring from 25
         found = False
 
-        for j in range(split-1): # previous 24 numbers
+        for j in range(split-1): # starting from 24
             for k in range(j+1,split):
                 if preamble[j] + preamble[k] == num:
                     found = True
