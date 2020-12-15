@@ -1,4 +1,4 @@
-with open('input.txt') as file:
+with open('input10.txt') as file:
     data = file.readlines()
     data = [int(line.strip()) for line in data]
     data.sort()
