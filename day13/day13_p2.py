@@ -33,6 +33,6 @@ def get_earlist_time():
 if __name__ == '__main__':
     print(get_earlist_time())
 
-####Resoruces####
+####Resources####
 #Chinese Remainder Theorem: https://en.wikipedia.org/wiki/Chinese_remainder_theorem
 #Modular Inverse: https://www.geeksforgeeks.org/multiplicative-inverse-under-modulo-m/
