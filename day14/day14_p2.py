@@ -1,5 +1,3 @@
-# part 2
-
 def get_addresses(s):
     if 'X' not in s:
         return s
