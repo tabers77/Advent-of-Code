@@ -4,10 +4,11 @@ with open('input.txt', 'r') as file:
 
 def get_num_spoken(limit = 2020):
     d = {}
+    unique_count = {}
+    
     for idx, num in enumerate(data):
         idx = idx + 1
         d[idx] = num
-    unique_count = {}
 
     while max(d.keys()) < limit:
         numbers = list(d.values())
