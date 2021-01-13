@@ -10,9 +10,9 @@ with open('input.txt') as file:
 valids = 0
 for i in data:
     i = re.split('-| |:', i )
-    i.pop(3) # here I just drop
-    a = int(i[0]) - 1
-    b = int(i[1]) - 1
+    i.pop(3) 
+    a = int(i[0]) - 1 # normalize
+    b = int(i[1]) - 1 # normalize
     letter_to_check = i[2]
     sample = [i for i in i[3]]
 
