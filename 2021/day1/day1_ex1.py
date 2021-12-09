@@ -1,4 +1,4 @@
-with open('day1_input') as file:
+with open('day1_input_ex1') as file:
 
     data = file.read()
     data = [i for i in data.split()]
