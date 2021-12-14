@@ -32,13 +32,10 @@ def wrapper_func(data):
     d1 = {}
     d2 = {}
     for row_n, v1 in d.items():
-        max_value = max(v1.values())
-        min_value = min(v1.values())
-
         for k2, v2 in v1.items():
-            if v2 == max_value:
+            if v2 == max(v1.values()):
                 d1[row_n] = k2
-            elif v2 == min_value:
+            elif v2 == min(v1.values()):
                 d2[row_n] = k2
     dicts = [d1, d2]
     gamma_epsilon = list()
